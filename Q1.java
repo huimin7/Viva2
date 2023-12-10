@@ -35,13 +35,13 @@ public class Q1 {
             for(int i=0;i<password.length();i++){
                 char x=password.charAt(i);
                 if(isUpperCase(x)){
-                capital =true;
+                    capital =true;
                 }else if(isLowerCase(x)){
-                lowerCase=true;
+                    lowerCase=true;
                 }else if(isDigit(x)){
-                countDigit++;
+                    countDigit++;
                 }else if(x=='!'||x=='@'||x=='#'||x=='$'||x=='%'||x=='^'||x=='&'||x=='*'||x=='('||x==')'||x=='-'||x=='+'){
-                 cntCharacter++;
+                     cntCharacter++;
         
                 }
             }
