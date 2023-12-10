@@ -4,10 +4,7 @@
  */
 package viva2;
 
-/**
- *
- * @author Chuimin
- */
+
 
 import static java.lang.Character.*;
 import java.util.Scanner;
