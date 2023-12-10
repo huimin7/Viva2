@@ -15,7 +15,7 @@ public class Q3 {
         String str=sc.nextLine();
         String strValue="";
         
-        for(int i=0;i<str.length()-1;i++){
+        for(int i=1;i<str.length()-1;i++){
             strValue += ""+str.charAt(i);
         }
        // System.out.println(strValue);
@@ -52,7 +52,7 @@ public class Q3 {
         boolean [] valid=new boolean[6];
         for(int i=0;i<6;i++){
             String a="";
-            for(int j=2;j<arr[i].length()-1;j++){
+            for(int j=1;j<arr[i].length()-1;j++){
                 a += "" + arr[i].charAt(j);
             }
            // System.out.print(a);
