@@ -4,10 +4,7 @@
  */
 package viva2;
 
-/**
- *
- * @author Chuimin
- */
+
 import java.util.Scanner;
 
 public class Q3 {
